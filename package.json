@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-course-code-snippets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build src/input.css -o src/output.css",
+    "watch": "tailwindcss build src/input.css -o src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
