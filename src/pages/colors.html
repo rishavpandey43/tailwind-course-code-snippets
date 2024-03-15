@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colors: Tailwind CSS</title>
+    <link rel="stylesheet" href="../output.css" />
+  </head>
+  <body class="container mx-auto my-10 space-y-4 text-xl">
+    <p class="text-blue-500">This text is blue.</p>
+    <p class="text-red-500">This text is red.</p>
+    <p class="text-green-500">This text is green.</p>
+
+    <div class="bg-blue-500 text-white p-5">
+      This div has a blue background.
+    </div>
+
+    <div class="bg-pink-600 text-white p-5">
+      This div has a pink background with white text.
+    </div>
+
+    <div class="border-4 border-blue-500">This div has a blue border.</div>
+
+    <button class="text-gray-800 hover:text-red-500">
+      I'm button, Hover over me!
+    </button>
+
+    <button class="bg-blue-500 hover:bg-blue-700 text-white p-2">
+      I'm button, Hover over me!
+    </button>
+
+    <button
+      class="border-4 border-green-400 hover:border-green-600 text-green-400 hover:text-green-600 p-2"
+    >
+      I'm button, Hover over me!
+    </button>
+
+    <p class="text-blue-500 sm:text-red-500 md:text-green-500 lg:text-pink-500">
+      This text is blue on small screens, red on medium screens, green on large
+      screens, and pink on extra large screens.
+    </p>
+
+    <p class="text-brand-blue">This text is brand blue. (Custom color)</p>
+    <p class="text-brand-yellow">This text is brand yellow. (Custom color)</p>
+
+    <p class="text-[#a61689]">This text is a custom color using a hex code.</p>
+  </body>
+</html>
