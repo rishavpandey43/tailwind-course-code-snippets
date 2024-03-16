@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typography: Tailwind CSS</title>
+    <link rel="stylesheet" href="../output.css" />
+  </head>
+  <body class="container mx-auto my-10 space-y-4 text-xl">
+    <p class="font-sans">This is a sans-serif font.</p>
+    <p class="font-serif">This is a serif font.</p>
+    <p class="font-mono">This is a monospaced font.</p>
+
+    <p class="font-sans hover:font-mono">
+      This is a sans-serif font that changes to a monospaced font when you hover
+      over it.
+    </p>
+
+    <p class="font-mono hover:font-serif">
+      This is a monospaced font that changes to a serif font when you hover over
+      it.
+    </p>
+
+    <p class="font-sans md:font-mono lg:font-serif">
+      This is a sans-serif font that changes to a monospaced font on medium
+      screens and a serif font on large screens.
+    </p>
+
+    <p class="font-league-script">
+      This is a custom font called League Script.
+    </p>
+    <p class="font-unlock">This is a custom font called Unlock.</p>
+
+    <h1 class="text-5xl">
+      This is a heading with a font size of 5xl (3rem = 48px).
+    </h1>
+    <h2 class="text-4xl">
+      This is a heading with a font size of 4xl (2.25rem = 36px).
+    </h2>
+
+    <h3 class="text-3xl">
+      This is a heading with a font size of 3xl (1.875rem = 30px).
+    </h3>
+
+    <h4 class="text-xl">
+      This is a heading with a font size of xl (1.25rem -> 20px).
+    </h4>
+    <h5 class="text-lg hover:text-4xl">
+      This is a heading with a font size of lg (1.125rem = 18px), changing to
+      4xl (2.25rem = 36px) on hover.
+    </h5>
+    <h6 class="text-sm hover:text-2xl">
+      This is a heading with a font size of sm (0.875rem = 14px), changing to xl
+      (1.25rem = 20px) on hover.
+    </h6>
+
+    <p class="text-base sm:text-xl md:text-3xl lg:text-5xl">
+      This paragraph changes to different sizes, as the viewport size changes.
+    </p>
+
+    <p class="text-mega-font">
+      This paragraph uses a custom font size called mega-font.
+    </p>
+
+    <p class="text-new-xl">
+      This paragraph uses a custom font size called new-xl.
+    </p>
+
+    <p class="text-[18.5px]">
+      This paragraph uses a custom font size of 18.5px.
+    </p>
+
+    <!-- Font weights -->
+    <p class="font-light">The quick brown fox jumps over the lazy dog.</p>
+    <p class="font-normal">The quick brown fox jumps over the lazy dog.</p>
+    <p class="font-medium">The quick brown fox jumps over the lazy dog.</p>
+    <p class="font-semibold">The quick brown fox jumps over the lazy dog.</p>
+    <p class="font-bold">The quick brown fox jumps over the lazy dog.</p>
+    <p class="font-extrabold">The quick brown fox jumps over the lazy dog.</p>
+
+    <!-- Letter Spacing -->
+    <p class="tracking-tighter">Tighter letter spacing.</p>
+    <p class="tracking-wide">Wide letter spacing.</p>
+    <p class="tracking-widest hover:tracking-normal">Widest letter spacing.</p>
+
+    <p class="uppercase">This text is uppercase.</p>
+    <p class="lowercase">THIS TEXT IS LOWERCASE.</p>
+    <p class="capitalize">this text is capitalized.</p>
+
+    <p class="underline">This text is underlined.</p>
+    <p class="line-through">This text has a line through it.</p>
+    <p class="underline decoration-double">
+      This text has a double line through it.
+    </p>
+    <p class="underline decoration-wavy">
+      This text has a wavy line through it. It is a custom decoration.
+    </p>
+    <p class="no-underline hover:underline">
+      This text has no underline, but gets one on hover.
+    </p>
+    <p class="text-left">Left aligned text.</p>
+    <p class="text-center">Center aligned text.</p>
+    <p class="text-right">Right aligned text.</p>
+  </body>
+</html>
