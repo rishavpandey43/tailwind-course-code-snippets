@@ -26,6 +26,13 @@ module.exports = {
           "brand-dark": "#212529",
         },
       },
+      spacing: {
+        "my-space": "21px",
+      },
+      padding: {
+        love: "143px",
+      },
+      margin: {},
     },
   },
   plugins: [],

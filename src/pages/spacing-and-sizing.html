@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spacing & Sizing: Tailwind CSS</title>
+    <link rel="stylesheet" href="../output.css" />
+  </head>
+  <body class="container mx-auto my-10 space-y-8">
+    <h1 class="text-4xl">User Detail</h1>
+
+    <div class="w-40 border-2 border-black space-y-4">
+      <div class="bg-blue-500 text-white p-6 rounded w-60">
+        <p class="text-lg">Name: John Doe</p>
+        <p class="text-lg">Email: john@doe.com</p>
+      </div>
+
+      <div class="bg-blue-500 text-white p-6 rounded max-w-72">
+        <p class="text-lg">Name: John Doe</p>
+        <p class="text-lg">Email: john@doe.com</p>
+      </div>
+    </div>
+
+    <div class="w-40 border-2 border-black space-y-4">
+      <div class="bg-red-500 text-white p-6 rounded w-20">
+        <p class="text-lg">Name: John Doe</p>
+        <p class="text-lg">Email: john@doe.com</p>
+      </div>
+
+      <div class="bg-red-500 text-white p-6 rounded min-w-48">
+        <p class="text-lg">Name: John Doe</p>
+        <p class="text-lg">Email: john@doe.com</p>
+      </div>
+    </div>
+  </body>
+</html>
