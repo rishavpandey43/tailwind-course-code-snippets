@@ -25,6 +25,10 @@ module.exports = {
           "brand-light": "#f8f9fa",
           "brand-dark": "#212529",
         },
+        spacing: {
+          awesome: "43px",
+          "new-awesome": "50px",
+        },
       },
       spacing: {
         "my-space": "21px",
