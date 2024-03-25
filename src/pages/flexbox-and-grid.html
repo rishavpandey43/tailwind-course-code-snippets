@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox & Grid: Tailwind CSS</title>
+    <link rel="stylesheet" href="../output.css" />
+  </head>
+  <body class="p-10 space-y-8">
+    <div class="flex flex-col-reverse gap-8">
+      <div class="bg-blue-500 text-white rounded text-2xl p-4 w-80">
+        I'm some text inside the card 1
+      </div>
+
+      <div class="bg-green-500 text-white rounded text-2xl p-4 w-80">
+        I'm some text inside the card 2
+      </div>
+
+      <div class="bg-pink-500 text-white rounded text-2xl p-4 w-80">
+        I'm some text inside the card 3
+      </div>
+    </div>
+
+    <div class="flex gap-4">
+      <div class="bg-orange-500 text-white text-2xl p-6 rounded flex-grow">
+        I'm Growing!
+      </div>
+      <div class="bg-pink-500 text-white text-2xl p-6 rounded">not growing</div>
+    </div>
+
+    <div class="flex gap-4">
+      <div
+        class="bg-lime-500 text-white text-2xl p-6 rounded flex-shrink w-1/2"
+      >
+        Shrink if needed
+      </div>
+      <div
+        class="bg-indigo-500 text-white text-2xl p-6 rounded w-2/3 flex-none"
+      >
+        Try to shrink me
+      </div>
+    </div>
+
+    <div class="flex gap-4">
+      <div class="bg-yellow-500 text-white text-2xl p-6 rounded basis-1/4">
+        flex basis 1/4
+      </div>
+      <div class="bg-pink-500 text-white text-2xl p-6 rounded basis-1/4">
+        flex basis 1/4
+      </div>
+      <div class="bg-teal-500 text-white text-2xl p-6 rounded basis-1/2">
+        flex basis 1/2
+      </div>
+    </div>
+
+    <div class="flex gap-4">
+      <div class="flex-1 bg-cyan-500 text-white text-2xl p-6 rounded">
+        Flex 1
+      </div>
+      <div class="flex-1 bg-purple-500 text-white text-2xl p-6 rounded">
+        Flex 1
+      </div>
+      <div class="flex-1 bg-teal-500 text-white text-2xl p-6 rounded">
+        Flex 1
+      </div>
+    </div>
+    <div class="flex gap-4 justify-end">
+      <div class="bg-pink-500 text-white rounded text-2xl p-4 w-80">
+        I'm some text inside the card 4
+      </div>
+
+      <div class="bg-red-500 text-white rounded text-2xl p-4 w-80">
+        I'm some text inside the card 5
+      </div>
+
+      <div class="bg-pink-500 text-white rounded text-2xl p-4 w-80">
+        I'm some text inside the card 6
+      </div>
+    </div>
+
+    <div class="flex gap-4 items-end">
+      <div class="bg-blue-500 text-white rounded text-2xl p-4 w-80">
+        I'm some text inside the card 4
+      </div>
+
+      <div class="bg-green-500 text-white rounded text-2xl p-4 w-80">
+        I'm some text inside the card 5. This is a long text that will wrap to
+        the next line.
+      </div>
+
+      <div class="bg-pink-500 text-white rounded text-2xl p-4 w-80">
+        I'm some text inside the card 6. This is another long text that will
+        wrap to the next line. Now, I'm adding more text to make it even longer.
+        This is a long text that will wrap to the next line.
+      </div>
+    </div>
+
+    <div class="p-10 grid grid-cols-4 gap-4">
+      <div class="overflow-hidden rounded-lg shadow-lg">
+        <img
+          src="https://source.unsplash.com/random/400x400?sig=1"
+          alt=""
+          class="w-full h-auto"
+        />
+      </div>
+      <div class="overflow-hidden rounded-lg shadow-lg col-span-2">
+        <img
+          src="https://source.unsplash.com/random/800x400?sig=2"
+          alt=""
+          class="w-full h-auto"
+        />
+      </div>
+      <div class="overflow-hidden rounded-lg shadow-lg">
+        <img
+          src="https://source.unsplash.com/random/400x400?sig=3"
+          alt=""
+          class="w-full h-auto"
+        />
+      </div>
+      <div class="overflow-hidden rounded-lg shadow-lg row-span-4">
+        <img
+          src="https://source.unsplash.com/random/400x1200?sig=4"
+          alt=""
+          class="w-full h-auto"
+        />
+      </div>
+      <div class="overflow-hidden rounded-lg shadow-lg">
+        <img
+          src="https://source.unsplash.com/random/400x400?sig=5"
+          alt=""
+          class="w-full h-auto"
+        />
+      </div>
+      <div class="overflow-hidden rounded-lg shadow-lg">
+        <img
+          src="https://source.unsplash.com/random/400x400?sig=6"
+          alt=""
+          class="w-full h-auto"
+        />
+      </div>
+      <div class="overflow-hidden rounded-lg shadow-lg">
+        <img
+          src="https://source.unsplash.com/random/400x400?sig=7"
+          alt=""
+          class="w-full h-auto"
+        />
+      </div>
+      <div class="overflow-hidden rounded-lg shadow-lg">
+        <img
+          src="https://source.unsplash.com/random/400x400?sig=8"
+          alt=""
+          class="w-full h-auto"
+        />
+      </div>
+      <div class="overflow-hidden rounded-lg shadow-lg">
+        <img
+          src="https://source.unsplash.com/random/400x400?sig=9"
+          alt=""
+          class="w-full h-auto"
+        />
+      </div>
+      <div class="overflow-hidden rounded-lg shadow-lg">
+        <img
+          src="https://source.unsplash.com/random/400x400?sig=10"
+          alt=""
+          class="w-full h-auto"
+        />
+      </div>
+      <div class="overflow-hidden rounded-lg shadow-lg">
+        <img
+          src="https://source.unsplash.com/random/400x400?sig=11"
+          alt=""
+          class="w-full h-auto"
+        />
+      </div>
+      <div class="overflow-hidden rounded-lg shadow-lg">
+        <img
+          src="https://source.unsplash.com/random/400x400?sig=12"
+          alt=""
+          class="w-full h-auto"
+        />
+      </div>
+      <div class="overflow-hidden rounded-lg shadow-lg">
+        <img
+          src="https://source.unsplash.com/random/400x400?sig=13"
+          alt=""
+          class="w-full h-auto"
+        />
+      </div>
+      <div class="overflow-hidden rounded-lg shadow-lg col-span-4">
+        <img
+          src="https://source.unsplash.com/random/1600x400?sig=14"
+          alt=""
+          class="w-full h-auto"
+        />
+      </div>
+    </div>
+  </body>
+</html>

@@ -38,6 +38,10 @@ module.exports = {
       },
       margin: {},
     },
+    container: {
+      center: true,
+      padding: "2rem",
+    },
   },
   plugins: [],
 };
